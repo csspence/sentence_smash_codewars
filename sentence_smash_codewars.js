@@ -7,8 +7,6 @@ Example
 */
 
 // Smash Words
-function smash (words) {
-    "use strict";
-    
-    
+const smash = (words) => {
+  return words.join(' ');
 };
